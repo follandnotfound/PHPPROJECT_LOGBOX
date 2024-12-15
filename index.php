@@ -201,7 +201,5 @@ var interval = setInterval(function() {
    $('#time').html(momentNow.format('hh:mm:ss A'));
  }, 100);
 </script>
-
-
 </body>
 </html>

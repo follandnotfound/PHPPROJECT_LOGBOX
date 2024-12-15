@@ -7,7 +7,6 @@ include("controller.php");
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="img/attendance.png" type="image/x-icon">
-
   <title>HR | Dashboard</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,14 +58,14 @@ include("controller.php");
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <span class="dropdown-item dropdown-header" style="max-height: 150px; overflow:hidden; background:darkslategrey;">
             <div class="image">
-              <img src="dist/img/user2-160x160.jpg" style="border-radius: 50%;width: 100x;height: 100px;" alt="User Image">
+              <img src="img/admin.png" style="border-radius: 50%;width: 100x;height: 100px;" alt="User Image">
             </div>
           </span>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">Settings</a>
+          <a href="#" class="dropdown-item dropdown-footer">SETTINGS</a>
           <div class="dropdown-divider"></div>
           <form method="POST">
-            <button type="submit" name="logout" class="dropdown-item dropdown-footer">Logout</a>
+            <button type="submit" name="logout" class="dropdown-item dropdown-footer">LOGOUT</a>
           </form>
         </div>
       </li>
@@ -89,7 +88,7 @@ include("controller.php");
 
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="img/admin.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block"><?php echo $_SESSION['name']; ?></a>
